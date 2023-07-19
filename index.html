@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형 기본</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- <모바일 환경을 위한 css 새로고침 버전 관리> -->
+    <link rel="stylesheet" href="./css/style.css?ver=1.0">
+    <link rel="stylesheet" href="./css/style02.css?ver=1.0">
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- <모바일 환경을 위한 css 새로고침 버전 관리 
+            + defer는 jquery에서 초기화 담당해서 function 안써도됨> -->
+    <script src="./js/custom.js?ver=1.0" defer></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="Header">
+            <div class="inner">
+                <h1>
+                    <a href="/">
+                        <img src="./images/grafflogo.png" alt="">
+                    </a>
+                </h1>
+                <nav id="gnb">
+                    <ul class="dp1">
+                        <li><a href="">menu01</a></li>
+                        <li><a href="">menu02</a></li>
+                        <li><a href="">menu03</a></li>
+                        <li><a href="">menu04</a></li>
+                        <li><a href="">menu05</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile_btn">
+                    <i class="xi-bars"></i>
+                </div>
+                <div class="search_area">
+                    <i class="xi-search"></i>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+
+
+
+        <main id="Index">
+            <section id="MainVisual">
+                <h2 class="blind">main visual</h2>
+                <div class="swiper main_slide">
+                    <div class="swiper-wrapper">
+                        <div class="itm itm01 swiper-slide">
+                            <div class="slogan">
+                                <h3>01. Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, odio!</p>
+                            </div>
+                        </div>
+                        <div class="itm itm02 swiper-slide">
+                            <div class="slogan">
+                                <h3>02. Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, odio!</p>
+                            </div>
+                        </div>
+                        <div class="itm itm03 swiper-slide">
+                            <div class="slogan">
+                                <h3>03. Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, odio!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <i class="xi-arrow-left left"></i>
+                    <i class="xi-arrow-right right"></i>
+                </div>
+            </section>
+            <section id="MainContent" class="section">
+                <div class="title">
+                    <h2>Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, voluptates?</p>
+                </div>
+                <div class="inner">
+                    <figure>
+                        <div class="img_box">
+                            <img src="./images/lesedilarona01.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <strong>Lorem, ipsum dolor.</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="./images/lesedilarona02.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <strong>Lorem, ipsum dolor.</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="./images/lesedilarona03.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <strong>Lorem, ipsum dolor.</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <div class="img_box">
+                            <img src="./images/lesedilarona04.jpg" alt="">
+                        </div>
+                        <figcaption>
+                            <strong>Lorem, ipsum dolor.</strong>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <section id="MainEvent" class="section">
+                <h2 class="blind">Lorem ipsum dolor sit.</h2>
+                <div class="inner">
+                    <div class="swiper pro_slide">
+                        <div class="swiper-wrapper">
+                            <div class="itm swiper-slide">
+                                <figure>
+                                    <div class="img_box">
+                                        <img src="./images/lesedilarona01.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>Lorem, ipsum dolor.</strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="itm swiper-slide">
+                                <figure>
+                                    <div class="img_box">
+                                        <img src="./images/lesedilarona02.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>Lorem, ipsum dolor.</strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="itm swiper-slide">
+                                <figure>
+                                    <div class="img_box">
+                                        <img src="./images/lesedilarona03.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>Lorem, ipsum dolor.</strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="itm swiper-slide">
+                                <figure>
+                                    <div class="img_box">
+                                        <img src="./images/lesedilarona04.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>Lorem, ipsum dolor.</strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="itm swiper-slide">
+                                <figure>
+                                    <div class="img_box">
+                                        <img src="./images/lesedilarona05.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>Lorem, ipsum dolor.</strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="itm swiper-slide">
+                                <figure>
+                                    <div class="img_box">
+                                        <img src="./images/lesedilarona06.jpg" alt="">
+                                    </div>
+                                    <figcaption>
+                                        <strong>Lorem, ipsum dolor.</strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, id.</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sbar"></div>
+            </section>
+        </main>
+
+
+
+
+
+
+
+        <footer id="Footer" class="section">
+            <h2 class="blind">customer</h2>
+            <div class="inner">
+                <h2>
+                    <img src="./images/grafflogo.png" alt="">
+                </h2>
+                <address>
+                    <div class="ft_top">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, voluptatibus corrupti! Vel,
+                        hic provident. Aspernatur quis dolores a quae tenetur.
+                    </div>
+                    <div class="ft_bottom">
+                        &copy; lorem inc. allrights reseved.
+                    </div>
+                </address>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
